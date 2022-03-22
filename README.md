@@ -6,8 +6,8 @@ This mod adds a simple one button to go from first to third person. There's curr
 
 I made this mod because Hypixel blacklisted the perspective mod, and Lunar Client and BadLion didn't have their 'Snaplook' type mod public so I just made it myself...
 
-**Default Keybinds**: _Can be changed in settings_
-**L-Alt** - Back View (Over Shoulder)
+**Default Keybinds**: _Can be changed in settings_<br>
+**L-Alt** - Back View (Over Shoulder)<br>
 **None** - Front View
 
 

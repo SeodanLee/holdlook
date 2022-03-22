@@ -1,0 +1,18 @@
+[
+{
+  "modid": "hlook",
+  "name": "Holdlook",
+  "description": "Holdlook... 
+  [L-ALT] for 'overshoulder' look
+  Front View is NONE by default, can be changed in settings.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["\u00A79Cats\u00A7r"],
+  "credits": "Use of Forge API",
+  "logoFile": "holdlook.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

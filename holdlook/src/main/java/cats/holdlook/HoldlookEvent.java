@@ -16,18 +16,26 @@ public class HoldlookEvent
     
     if (HoldlookKeys.keyFrontcam.isKeyDown()) { // Hold Over-Shoulder
         frontCamHasChecked = false;
-        mc.gameSettings.thirdPersonView = 2;
+        mc.gameSettings.thirdPersonView = 2; // 3rd person (back)
     } else if (!frontCamHasChecked) {
         frontCamHasChecked = true;
-        mc.gameSettings.thirdPersonView = 0;
+        mc.gameSettings.thirdPersonView = 0; // 1st person
         }
 
     if (HoldlookKeys.keyRearcam.isKeyDown()) { // Hold Face
+        rearCamHasChecked = false;
+        mc.gameSettings.thirdPersonView = 1; // 3rd person (front)
+    } else if (!rearCamHasChecked) {
+        rearCamHasChecked = true;
+        mc.gameSettings.thirdPersonView = 0; // 1st person
+        } 
+    //}
+
+    if (HoldlookKeys.keyTest.Toggle()){
         rearCamHasChecked = false;
         mc.gameSettings.thirdPersonView = 1;
     } else if (!rearCamHasChecked) {
         rearCamHasChecked = true;
         mc.gameSettings.thirdPersonView = 0;
-        } 
     }
 }

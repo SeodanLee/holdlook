@@ -3,8 +3,8 @@
   "modid": "hlook",
   "name": "Holdlook",
   "description": "Holdlook... 
-  [L-ALT] for 'overshoulder' look
-  Front View is NONE by default, can be changed in settings.",
+  [L-ALT] for 'front view' look
+  Back View is NONE by default, can be changed in settings.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

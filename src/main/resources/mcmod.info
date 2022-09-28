@@ -1,0 +1,21 @@
+[
+{
+  "modid": "hlook",
+  "name": "Holdlook",
+  "description": "Holdlook...
+  [None] - Hold Back View (Over Shoulder)
+  [None] - Hold Front View
+  [None] - Toggle Back View
+  [None] - Toggle Front View
+  Can be changed in settings (Toggle Look Category).",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Cats1337/holdlook",
+  "updateUrl": "",
+  "authorList": ["\u00A79Cats\u00A7r"],
+  "credits": "Use of Forge API",
+  "logoFile": "holdlook.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hlook",
+  "version": "${version}",
+  "name": "Holdlook",
+  "description": "Holdlook...\n  [None] - Hold Back View (Over Shoulder)\n  [None] - Hold Front View\n  [None] - Toggle Back View\n  [None] - Toggle Front View\n  Can be changed in settings (Toggle Look Category).",
+  "authors": [
+    "\u00A79Cats\u00A7r",
+    "SeodanLee"
+  ],
+  "contact": {
+    "sources": "https://github.com/SeodanLee/holdlook"
+  },
+  "environment": "client",
+  "icon": "holdlook.png",
+  "entrypoints": {
+    "main": [
+      "cats.holdlook.Holdlook"
+    ],
+    "client": [
+      "cats.holdlook.HoldlookClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "legacy-fabric-api": "*",
+    "minecraft": "1.8.9"
+  }
+}

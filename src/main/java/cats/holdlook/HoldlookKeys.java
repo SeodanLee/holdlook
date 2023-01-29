@@ -1,7 +1,8 @@
 package cats.holdlook;
 
-import net.minecraft.client.settings.KeyBinding;
-import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.legacyfabric.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.minecraft.client.option.KeyBinding;
+//import net.minecraftforge.fml.client.registry.ClientRegistry;
 
 public class HoldlookKeys // Uses LWJGL Keycodes
 {
@@ -11,9 +12,14 @@ public class HoldlookKeys // Uses LWJGL Keycodes
   public static KeyBinding keyFrontToggle = new KeyBinding("Toggle Face View", 0, "Toggle Look");
 
   public void init() {
-    ClientRegistry.registerKeyBinding(keyRearcam); // Over-Shoulder Hold
-    ClientRegistry.registerKeyBinding(keyFrontcam); // Face
-    ClientRegistry.registerKeyBinding(keyRearToggle); // Over-Shoulder Toggle
-    ClientRegistry.registerKeyBinding(keyFrontToggle); // Over-Shoulder Toggle
+//    ClientRegistry.registerKeyBinding(keyRearcam); // Over-Shoulder Hold
+//    ClientRegistry.registerKeyBinding(keyFrontcam); // Face
+//    ClientRegistry.registerKeyBinding(keyRearToggle); // Over-Shoulder Toggle
+//    ClientRegistry.registerKeyBinding(keyFrontToggle); // Over-Shoulder Toggle
+
+    keyRearcam = KeyBindingHelper.registerKeyBinding(keyRearcam);
+    keyFrontcam = KeyBindingHelper.registerKeyBinding(keyFrontcam);
+    keyRearToggle = KeyBindingHelper.registerKeyBinding(keyRearToggle);
+    keyFrontToggle = KeyBindingHelper.registerKeyBinding(keyFrontToggle);
   }
 }

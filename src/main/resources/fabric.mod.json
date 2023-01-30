@@ -14,9 +14,6 @@
   "environment": "client",
   "icon": "holdlook.png",
   "entrypoints": {
-    "main": [
-      "cats.holdlook.Holdlook"
-    ],
     "client": [
       "cats.holdlook.HoldlookClient"
     ]
